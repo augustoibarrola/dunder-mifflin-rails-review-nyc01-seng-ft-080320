@@ -1,0 +1,6 @@
+<h1>Dog Index:</h1>
+
+ <% @dog.each do |f| %>
+    <%= link_to f.name, dog_path(f) %><br>
+    <br>
+<% end %> 
